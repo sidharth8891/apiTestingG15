@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-09T15:44:54Z" name="Automation Test Suite for IX Onespace" finished-at="2021-05-09T15:44:56Z" duration-ms="2177">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="testApi.putmethodpojo()[pri:0, instance:apiTest.testApi@77888435]" name="putmethodpojo" class="apiTest.testApi"/>
+      </group> <!-- RegressionSuite -->
+    </groups>
+    <test started-at="2021-05-09T15:44:54Z" name="Automation Test Cases" finished-at="2021-05-09T15:44:56Z" duration-ms="2177">
+      <class name="apiTest.testApi">
+        <test-method is-config="true" signature="config(java.lang.String, java.lang.String)[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:53Z" name="config" finished-at="2021-05-09T15:44:54Z" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Optional name Automation ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[API Report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method is-config="true" signature="LogBeforeMethod()[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:54Z" name="LogBeforeMethod" finished-at="2021-05-09T15:44:54Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogBeforeMethod -->
+        <test-method signature="Validate404ForUsers()[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:54Z" name="Validate404ForUsers" description="validate 200 as status code with wrong base uri" finished-at="2021-05-09T15:44:55Z" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate404ForUsers -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:55Z" name="getResult" finished-at="2021-05-09T15:44:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate404ForUsers status=SUCCESS method=testApi.Validate404ForUsers()[pri:0, instance:apiTest.testApi@77888435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="putmethodpojo()[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:55Z" name="putmethodpojo" finished-at="2021-05-09T15:44:56Z" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmethodpojo -->
+        <test-method is-config="true" signature="LogBeforeMethod()[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:55Z" name="LogBeforeMethod" finished-at="2021-05-09T15:44:55Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogBeforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:56Z" name="getResult" finished-at="2021-05-09T15:44:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=putmethodpojo status=SUCCESS method=testApi.putmethodpojo()[pri:0, instance:apiTest.testApi@77888435] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:apiTest.testApi@77888435]" started-at="2021-05-09T15:44:56Z" name="endReport" finished-at="2021-05-09T15:44:59Z" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- apiTest.testApi -->
+    </test> <!-- Automation Test Cases -->
+  </suite> <!-- Automation Test Suite for IX Onespace -->
+</testng-results>
