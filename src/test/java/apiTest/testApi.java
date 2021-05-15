@@ -30,7 +30,7 @@ public class testApi extends BaseTest{
 	@Test(groups="RegressionSuite")
 	public static void putmethodpojo() {
 		ExtentReport.extentlog = ExtentReport.extentreport.startTest("putmethodpojo",
-				"validate job is sdet");
+				"Validate the job is sdet or not");
 		
 		   pojoClass pjc = new pojoClass("tester", "sdet");
 		
