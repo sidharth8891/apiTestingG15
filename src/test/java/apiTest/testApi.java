@@ -14,7 +14,7 @@ import pojo.pojoClass;
 public class testApi extends BaseTest{
 	
 	
-	@Test(description="validate 200 as status code with wrong base URI")
+	@Test(description="Validate 200 as status code with wrong base URI")
 	public void Validate404ForUsers()
 	{
 		ExtentReport.extentlog = ExtentReport.extentreport.startTest("Validate404ForUsers",
