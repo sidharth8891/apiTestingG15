@@ -27,20 +27,20 @@ public class testApi extends BaseTest{
 		assertEquals(statuscode,200);
 		System.out.println(" Status code for API is:" + statuscode);
 	}
-	@Test(groups="RegressionSuite")
-	public static void putmethodpojo() {
-		ExtentReport.extentlog = ExtentReport.extentreport.startTest("putmethodpojo",
-				"validate job is sdet");
-		
-		   pojoClass pjc = new pojoClass("tester", "sdet");
-		
-		   Response resp = given().header("Content-Type","application/json").
-		            body(pjc).
-		            when().
-		            post("https://reqres.in/api/users");
-		    System.out.println(resp.getBody().asString());
-		    assertEquals(resp.path("job"),"sdet");
-		    
-	}
+//	@Test(groups="RegressionSuite")
+//	public static void putmethodpojo() {
+//		ExtentReport.extentlog = ExtentReport.extentreport.startTest("putmethodpojo",
+//				"validate job is sdet");
+//		
+//		   pojoClass pjc = new pojoClass("tester", "sdet");
+//		
+//		   Response resp = given().header("Content-Type","application/json").
+//		            body(pjc).
+//		            when().
+//		            post("https://reqres.in/api/users");
+//		    System.out.println(resp.getBody().asString());
+//		    assertEquals(resp.path("job"),"sdet");
+//		    
+//	}
 
 }
