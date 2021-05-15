@@ -27,6 +27,7 @@ public class testApi extends BaseTest{
 		assertEquals(statuscode,200);
 		System.out.println(" Status code for API is:" + statuscode);
 	}
+
 	@Test(groups="RegressionSuite")
 	public static void putmethodpojo() {
 		ExtentReport.extentlog = ExtentReport.extentreport.startTest("putmethodpojo",
@@ -42,5 +43,6 @@ public class testApi extends BaseTest{
 		    assertEquals(resp.path("job"),"sdet");
 		    
 	}
+
 
 }
