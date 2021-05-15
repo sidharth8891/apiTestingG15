@@ -76,7 +76,7 @@ public class BaseTest {
 		//ExtentReport.extentreport.flush();
 		ExtentReport.extentreport.close();
 		//Logging.setinstanceNull();
-		Email.sendEmail();
+		//Email.sendEmail();
 	}
 
 }
